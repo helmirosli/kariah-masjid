@@ -83,7 +83,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="/memberlist">Memberlist</a>
+                    <a href="memberlist">Memberlist</a>
                     <a href="">Board Director</a>
                     <a href="">News</a>
                     <a href="">About</a>
