@@ -35,7 +35,7 @@ return [
 
         'sqlite' => [
             'driver' => 'sqlite',
-            'database' => env('DB_DATABASE', 'kariah_masjid.sqlite'), //database_path('kariah_masjid.sqlite')),
+            'database' => storage_path('kariah_masjid.sqlite'), //env('DB_DATABASE', 'kariah_masjid.sqlite'), //database_path('kariah_masjid.sqlite')),
             'prefix' => '',
         ],
 
