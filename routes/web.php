@@ -15,9 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('memberlist', 'MemberController@index');
-Route::get('memberlist/insert', 'MemberController@insertform');
-Route::post('memberlist/create', 'MemberController@insert');
-Route::get('memberlist/edit/{memberId}', 'MemberController@show');
-Route::post('memberlist/edit/{memberId}', 'MemberController@edit');
-Route::get('memberlist/delete/{memberId}', 'MemberController@delete');
+Route::get('/memberlist', 'MemberController@index');
+Route::get('/memberlist/insert', 'MemberController@insertform');
+Route::post('/memberlist/create', 'MemberController@insert');
+Route::get('/memberlist/edit/{memberId}', 'MemberController@show');
+Route::post('/memberlist/edit/{memberId}', 'MemberController@edit');
+Route::get('/memberlist/delete/{memberId}', 'MemberController@delete');
