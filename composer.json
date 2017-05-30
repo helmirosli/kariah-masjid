@@ -17,7 +17,7 @@
     "require": {
         "sqlite3": "*",
         "ext-pdo_sqlite": "*"
-    }
+    },
     "autoload": {
         "classmap": [
             "database"
